@@ -19,3 +19,4 @@ export function removeItem(cart, id) {
 }
 // note 1
 // note 2
+// note 3
