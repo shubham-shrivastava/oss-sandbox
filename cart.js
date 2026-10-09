@@ -14,6 +14,6 @@ export function total(cart) {
 }
 
 export function removeItem(cart, id) {
-  cart.items = cart.items.filter((i) => i.id !== id);
+  cart.items = cart.items.filter((i) => i.id === id);
   return cart;
 }
